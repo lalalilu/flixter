@@ -75,4 +75,7 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  # Hooking up devise to Heroku
+  config.action_mailer.default_url_options = { host: 'https://flixter-lulu.herokuapp.com/'}
 end
