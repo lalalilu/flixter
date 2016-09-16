@@ -4,9 +4,11 @@
 .navbar {
   border-radius: 0;
   box-shadow: 0px 1px 4px #aaa;
+  font-family: 'fira_sanssemibold';
+  background: url('bright_squares.png');
 }
 
-.navbar .navbar-brand {
+.navbar a.navbar-brand {
   font-family: 'lobster_1.3regular';
   font-size: 30px;
 }
