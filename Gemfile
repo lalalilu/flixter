@@ -17,6 +17,8 @@ gem 'coffee-rails', '~> 4.0.0'
 # Devise gem for user accounts/authentication
 gem 'devise'
 
+gem 'simple_form'
+
 # For Heroku
 gem 'rails_12factor', group: :production
 
