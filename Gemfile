@@ -14,6 +14,12 @@ gem 'coffee-rails', '~> 4.0.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
 
+gem 'carrierwave', '>= 1.0.0.beta', '< 2.0'
+
+gem 'fog'
+
+gem 'figaro'
+
 # Devise gem for user accounts/authentication
 gem 'devise'
 
