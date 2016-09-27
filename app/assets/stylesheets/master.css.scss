@@ -4,6 +4,9 @@
 body {
   background: url('random_grey_variations.png');
   font-family: 'merriweatherregular';
+  min-height: 400px;
+  margin-bottom: 100px;
+  clear: both;
 }
 
 .navbar {
@@ -78,4 +81,26 @@ h1, h2, h3, h4, h5, h6, .navbar {
 
 .image {
   text-align: center;
+}
+
+.lesson {
+  background-color: black;
+  margin-top: 10px;
+  height: 130px;
+}
+
+.lesson a {
+  color: white;
+  font-family: 'merriweather_lightregular';
+  font-size: 15px;
+}
+
+.lesson a b {
+  font-size: 25px;
+}
+
+.section {
+  border: 1px solid;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  padding: 20px;
 }
