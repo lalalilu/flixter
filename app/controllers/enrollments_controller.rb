@@ -3,7 +3,6 @@ class EnrollmentsController < ApplicationController
 
   def create
     if current_course.premium?
-      current_user.enrollments.create(course: current_course)
 
       # Amount in cents
       @amount = (current_course.cost * 100).to_i
