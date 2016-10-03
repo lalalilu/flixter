@@ -58,9 +58,47 @@
   <br class="clr">
 
   <div class="footer navbar-fixed-bottom">
-    <b>Teachers</b>
-    <br>
-    <%= link_to 'Teach a Course', new_instructor_course_path %>
+    <div class="col-xs-12 col-sm-3">
+      <b>Teachers</b>
+      <br>
+      <%= link_to 'Teach a Course', new_instructor_course_path %>
+      <br>
+      <%= link_to 'My Dashboard', dashboard_path %>
+    </div>
+    <div class="col-xs-12 col-sm-3">
+      <b>About</b>
+      <br>
+      <%= link_to 'Team', '#' %>
+      <br>
+      <%= link_to 'Careers', '#' %>
+      <br>
+      <%= link_to 'Privacy Policty', '#' %>
+    </div>
+    <div class="col-xs-12 col-sm-3">
+      <b>Contact</b>
+      <br>
+      lilulu004@gmail.com
+      <br>
+      123 Katana Blvd
+      <br>
+      Atlanta, GA 12345
+    </div>
+    <div class="col-xs-12 col-sm-3 social">
+      <b>Social</b>
+      <br>
+      <%= link_to 'http://github.com/lalalilu' do %>
+        <%= image_tag 'github.png', class: 'social-button' %>
+      <% end %>
+      <%= link_to 'https://www.facebook.com/lulu.li.5439' do %>
+        <%= image_tag 'facebook.png', class: 'social-button' %>
+      <% end %>
+      <%= link_to 'http://twitter.com/eversolulu' do %>
+        <%= image_tag 'twitter.png', class: 'social-button' %>
+      <% end %>
+      <%= link_to 'http://linkedin.com/lilulu004' do %>
+        <%= image_tag 'linkedin.png', class: 'social-button' %>
+      <% end %>
+    </div>
   </div>
 
 </body>
