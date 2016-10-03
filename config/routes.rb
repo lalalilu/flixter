@@ -5,6 +5,10 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'static_pages#index'
+  get 'privacy', to: 'static_pages#privacy'
+  get 'careers', to: 'static_pages#careers'
+  get 'team', to: 'static_pages#team'
+
   resource :dashboard, only: [:show]
   namespace :instructor do
     resources :lessons, only: [:update]
